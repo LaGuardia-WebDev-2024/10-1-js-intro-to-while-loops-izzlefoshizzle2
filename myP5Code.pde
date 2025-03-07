@@ -3,6 +3,15 @@ setup = function() {
   background(255,255,255);
   textSize(15);
   fill(15, 0, 255);
+var message = "the number is ";
+  
+
+var y = 0
+while(y < 400) {
+  text(message + y, 30, y);
+  y += 50;
+
+}
 
   // a handy dandy ruler across the top
   var x = 0;
